@@ -1,0 +1,5033 @@
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R00006.00    [FAM-1B]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: S01Q01B
+ 
+AND THAT MAKES YOU (R'S AGE ON HOUSEHOLD ENUMERATION). IS THAT CORRECT ? (IF 
+NECESSARY CORRECT HOUSEHOLD ENUMERATION.)
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+     950          14
+    1563          15
+    1561          16
+    1508          17
+    1634          18
+    1677          19
+    1666          20
+    1690          21
+     437          22
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             14        Max:             22        Mean:                17.9
+ 
+Lead In: R00005.00[Default]
+Default Next Question: R00007.00
+--------------------------------------------------------------------------------
+R00007.00    [FAM-2A]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             COUNTRY OF BIRTH
+ 
+ORIGINAL QUESTION NAME: S01Q02A
+ 
+IN WHAT COUNTRY WERE YOU BORN?
+ 
+UNIVERSE: All
+ 
+   11812       1 IN THE US
+     873       2 IN OTHER COUNTRY
+  -------
+   12685
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                1.07
+ 
+Lead In: R00006.00[Default]
+Default Next Question: R00011.00
+--------------------------------------------------------------------------------
+R00010.10    [FAM-POB]                                      Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SOUTH-NONSOUTH PLACE OF BIRTH IN U.S.
+ 
+UNIVERSE: R born in the US
+ 
+    7144       0 NONSOUTH
+    4452       1 SOUTH
+  -------
+   11596
+ 
+Refusal(-1)            0
+Don't Know(-2)         4
+Invalid Skip(-3)      57
+TOTAL =========>   11657   VALID SKIP(-4)    1029     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .38
+ 
+Lead In: None.
+Default Next Question: R00011.00
+--------------------------------------------------------------------------------
+R00016.10    [FAM-RES]                                      Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SOUTH-NONSOUTH RESIDENCE IN U.S. AT AGE 14
+ 
+UNIVERSE: All
+ 
+    4451       1 YES
+    7779       0 NO
+  -------
+   12230
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)      87
+TOTAL =========>   12318   VALID SKIP(-4)     368     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .36
+ 
+Lead In: None.
+Default Next Question: R00018.00
+--------------------------------------------------------------------------------
+R00102.00    [FAM-31]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             RACIAL/ETHNIC ORIGIN WITH WHICH R IDENTIFIES MOST CLOSELY (> 1 
+             ORIGIN)
+ 
+ORIGINAL QUESTION NAME: S01Q31
+ 
+YOU SAID THAT YOUR ORIGIN OR DESCENT WAS (CATEGORIES CODED IN Q.30). WHICH ONE 
+OF THESE DO YOU FEEL CLOSEST TO?
+ 
+NOTE: USERS SHOULD BE AWARE THAT FREQUENCIES FOR "INDIAN-AMERICAN OR NATIVE 
+AMERICAN" MAY HAVE BEEN OVERSTATED IN 1979.
+ 
+UNIVERSE: All
+ 
+      82       0 NONE
+     115       1 BLACK
+       7       2 CHINESE
+     699       3 ENGLISH
+      10       4 FILIPINO
+     209       5 FRENCH
+     789       6 GERMAN
+      12       7 GREEK
+       9       8 HAWAIIAN, P.I.
+     352       9 INDIAN-AMERICAN OR NATIVE AMERICAN
+       6      10 ASIAN INDIAN
+     638      11 IRISH
+     294      12 ITALIAN
+      12      13 JAPANESE
+       0      14 KOREAN
+      26      15 CUBAN
+      10      16 CHICANO
+      36      17 MEXICAN
+      76      18 MEXICAN-AMER
+      32      19 PUERTO RICAN
+      17      20 OTHER HISPANIC
+      40      21 OTHER SPANISH
+     158      22 POLISH
+      28      23 PORTUGUESE
+      27      24 RUSSIAN
+      88      25 SCOTTISH
+       0      26 VIETNAMESE
+      27      27 WELSH
+     422      28 OTHER
+     154      29 AMERICAN
+  -------
+    4375
+ 
+Refusal(-1)            5
+Don't Know(-2)        74
+Invalid Skip(-3)     209
+TOTAL =========>    4663   VALID SKIP(-4)    8023     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             29        Mean:               11.53
+ 
+Lead In: R00101.00[Default]
+Default Next Question: R00103.00
+--------------------------------------------------------------------------------
+R01736.00    [SAMPLE_ID]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: S24Q01
+ 
+UNIVERSE: Entire Sample
+ 
+    2236       1 CROSS MALE WHITE
+     203       2 CROSS MALE WH. POOR
+     346       3 CROSS MALE BLACK
+     218       4 CROSS MALE HISPANIC
+    2279       5 CROSS FEMALE WHITE
+     198       6 CROSS FEMALE WH POOR
+     405       7 CROSS FEMALE BLACK
+     226       8 CROSS FEMALE HISPANIC
+     742       9 SUP MALE WH POOR
+    1105      10 SUP MALE BLACK
+     729      11 SUP MALE HISPANIC
+     901      12 SUP FEM WH POOR
+    1067      13 SUP FEMALE BLACK
+     751      14 SUP FEMALE HISPANIC
+     609      15 MIL MALE WHITE
+     162      16 MIL MALE BLACK
+      53      17 MIL MALE HISPANIC
+     342      18 MIL FEMALE WHITE
+      89      19 MIL FEMALE BLACK
+      25      20 MIL FEMALE HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             20        Mean:                8.17
+ 
+
+
+NOTE: MARCH 1, 1986  NORC
+ 
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R01735.19[Default]
+Default Next Question: R01737.00
+--------------------------------------------------------------------------------
+R01880.00    [HH1-1]                                        Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: S24Q25
+ 
+I: CODE ONE. YOUTH R IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+     389       1 DORM, FRATERNITY, SORORITY
+       4       2 HOSPITAL
+      26       3 JAIL OR JUVENILE DETENTION CENTER
+      26       4 OTHER GROUP QUARTERS
+    1914      11 OWN DWELLING UNIT
+       3      12 ORPHANAGE
+       3      13 RELIGIOUS INSTITUTION
+      87      14 OTHER INDIVIDUAL QUARTERS
+  -------
+    2452
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     131
+TOTAL =========>    2583   VALID SKIP(-4)   10103     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             14        Mean:                9.35
+ 
+Lead In: R01879.00[Default]
+Default Next Question: R01881.00
+--------------------------------------------------------------------------------
+R02147.00    [SAMPLE_RACE]                                  Survey Year: 78SCRN
+  PRIMARY VARIABLE
+
+ 
+             R'S RACIAL/ETHNIC COHORT FROM SCREENER
+ 
+UNIVERSE: Entire Sample
+ 
+    2002       1 HISPANIC
+    3174       2 BLACK
+    7510       3 NON-BLACK, NON-HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              3        Mean:                2.43
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+ 
+DESCRIPTION:
+COHORT=3;
+IF R(1736.)=4 ! R(1736.)=8 ! R(1736.)=11 ! R(1736.)=14 THEN COHORT=1;
+IF R(1736.)=17 ! R(1736.)=20 THEN COHORT=1;
+IF R(1736.)=3 ! R(1736.)=7 ! R(1736.)=10 ! R(1736.)=13 THEN COHORT=2;
+IF R(1736.)=16 ! R(1736.)=19 THEN COHORT=2;
+R(2147.)=COHORT;
+ 
+Lead In: R02146.00[Default]
+Default Next Question: R02148.00
+--------------------------------------------------------------------------------
+R02148.00    [SAMPLE_SEX]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SEX OF R
+ 
+UNIVERSE: Entire sample
+ 
+    6403       1 MALE
+    6283       2 FEMALE
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                 1.5
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+MARCH 1, 1986  NORC
+ 
+DESCRIPTION:
+IF (R(1736.)>0 & R(1736.)<=4) ! (R(1736.)>=9 & R(1736.)<=11) THEN SEX=1;
+IF R(1736.)>=15 & R(1736.)<=17 THEN SEX=1;
+IF (R(1736.)>=5 & R(1736.)<=8) ! (R(1736.)>=12 & R(1736.)<=14) THEN SEX=
+IF R(1736.)>=18 & R(1736.)<=20 THEN SEX=2;
+R(2148.)=SEX;
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R02147.00[Default]
+Default Next Question: R02149.00
+--------------------------------------------------------------------------------
+R02164.00    [REGION]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+UNIVERSE: All except those with no records
+ 
+    2550       1 NORTHEAST
+    2934       2 NORTH CENTRAL
+    4568       3 SOUTH
+    2395       4 WEST
+  -------
+   12447
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12447   VALID SKIP(-4)     239     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.55
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+ 
+DESCRIPTION:
+REGION=-4;
+S=R(1740.);
+IF S=09 ! S=23 ! S=25 ! S=33 ! S=34 ! S=36 ! S=42 ! S=44 ! S=50
+                                                       THEN REGION=1;
+IF S=01 ! S=05 ! S=10 ! S=11 ! S=12 ! S=13 ! S=21 ! S=22 ! S=24 ! S=28 !
+   S=37 ! S=40 ! S=45 ! S=47 ! S=48 ! S=51 ! S=54      THEN REGION=3;
+IF S=17 ! S=18 ! S=19 ! S=20 ! S=26 ! S=27 ! S=29 ! S=31 ! S=39 !
+   S=46 ! S=38 ! S=55                                  THEN REGION=2;
+IF S=02 ! S=04 ! S=06 ! S=08 ! S=15 ! S=16 ! S=30 ! S=32 ! S=35 !
+   S=41 ! S=49 ! S=53 ! S=56                           THEN REGION=4;
+R(2164.)=REGION;
+ 
+Lead In: R02161.01[Default]
+Default Next Question: R02165.00
+--------------------------------------------------------------------------------
+R02165.00    [AGEATINT]                                     Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+UNIVERSE: Entire Sample
+ 
+    1004          14
+    1570          15
+    1564          16
+    1512          17
+    1636          18
+    1683          19
+    1656          20
+    1682          21
+     379          22
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             14        Max:             22        Mean:               17.86
+ 
+Lead In: R02164.00[Default]
+Default Next Question: R02166.00
+--------------------------------------------------------------------------------
+R02175.00    [MARSTAT-COL]                                  Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+UNIVERSE: Entire Sample
+ 
+   11117       1 NEVER MARRIED
+    1302       2 MARRIED, SPOUSE PRESENT
+     265       3 OTHER
+  -------
+   12684
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12684   VALID SKIP(-4)       2     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              3        Mean:                1.14
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+ 
+DESCRIPTION:
+MAR=-4;
+IF R(106.)=5 THEN MAR=1;
+ELSE IF R(106.)>=2 & R(106.)<=4 THEN MAR=3;
+ELSE IF R(106.)=1 THEN DO;
+   IF R(1749.)=1 ! R(1758.)=1 ! R(1767.)=1 ! R(1776.)=1 !
+      R(1785.)=1 ! R(1794.)=1 ! R(1803.)=1 ! XN1637)=1 !
+      R(1821.)=1 ! R(1830.)=1 ! R(1839.)=1 ! R(1848.)=1 !
+      R(1857.)=1 ! XN1691)=1 ! R(1875.)=1 THEN MAR=2;
+   ELSE MAR=3;
+END;
+R(2175.)=MAR;
+ 
+Lead In: R02167.01[Default]
+Default Next Question: R02175.01
+--------------------------------------------------------------------------------
+R02175.02    [FAMSIZE]                                      Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF "FAMILY SIZE" 
+USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX 2: TOTAL NET FAMILY 
+INCOME.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: Entire Sample
+ 
+    1843           1
+    1194           2
+    1901           3
+    2233           4
+    2117           5
+    1466           6
+     845           7
+     477           8
+     249           9
+     200          10
+      98          11
+      19          12
+      17          13
+       6          14
+      21          15
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             15        Mean:                4.27
+ 
+Lead In: R02175.01[Default]
+Default Next Question: R02179.00
+--------------------------------------------------------------------------------
+R02202.00    [FAM-1B]                                       Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: S01Q01
+ 
+EXACTLY HOW OLD ARE YOU AS OF TODAY?
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 14: < 15
+     967          15
+    1539          16
+    1508          17
+    1468          18
+    1546          19
+    1602          20
+    1584          21
+    1566          22
+     361          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31 TO 99999: 31+
+  -------
+   12141
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:             15        Max:             23        Mean:               18.83
+ 
+Lead In: None.
+Default Next Question: R02203.00
+--------------------------------------------------------------------------------
+R02204.00    [FAM-2A]                                       Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             LIVED OUTSIDE CURRENT COUNTY OF RESIDENCE SINCE LAST INT?
+ 
+ORIGINAL QUESTION NAME: S01Q02A
+ 
+HAVE YOU LIVED OUTSIDE (CITY/TOWN/COUNTRY) AT ANY TIME SINCE (DATE OF LAST 
+INTERVIEW)?
+ 
+UNIVERSE: R living in same place as at DLI
+ 
+     802       1 YES
+    9256       0 NO
+  -------
+   10058
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10058   VALID SKIP(-4)    2083     NON-INTERVIEW(-5)     545
+ 
+Min:              0        Max:              1        Mean:                 .08
+ 
+Lead In: R02203.00[Default]
+Default Next Question: R02208.00
+--------------------------------------------------------------------------------
+R04028.00    [HH1-1]                                        Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: S43DA111
+ 
+I: CODE ONE: YOUTH RESPONDENT IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+     432       1 ABOARD SHIP, BARRACKS
+     113       2 BACHELOR, OFFICER QUARTERS
+     493       3 DORM, FRATERNITY, SORORITY
+       2       4 HOSPITAL
+      63       5 JAIL
+      42       6 OTHER TEMPORARY QUARTERS
+    3198      11 OWN DWELLING UNIT
+      70      12 ON-BASE MIL FAM HOUSING
+      27      13 OFF-BASE MIL FAM HOUSING
+       1      14 ORPHANAGE
+       5      15 RELIGIOUS INSTITUTION
+      54      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+       0      19 R IN PARENTAL HOUSEHOLD
+  -------
+    4500
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    4500   VALID SKIP(-4)    7641     NON-INTERVIEW(-5)     545
+ 
+Min:              1        Max:             16        Mean:                 8.9
+ 
+Lead In: R04027.00[Default]
+Default Next Question: R04029.00
+--------------------------------------------------------------------------------
+R04052.10    [FAMSIZE]                                      Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+       0           0: < 1
+    1808           1
+    1382           2
+    2102           3
+    2100           4
+    1926           5
+    1230           6
+     694           7
+     383           8
+     230           9
+     129          10
+      92          11
+      23          12
+      19          13
+      15          14
+       8          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   12141
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:              1        Max:             15        Mean:                4.07
+ 
+Lead In: R04052.01[Default]
+Default Next Question: R04056.00
+--------------------------------------------------------------------------------
+R04056.00    [MARSTAT-COL]                                  Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+UNIVERSE: All
+ 
+   10025       1 NEVER MARRIED
+    1745       2 MARRIED, SPOUSE PRESENT
+     369       3 OTHER
+  -------
+   12139
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:              1        Max:              3        Mean:                 1.2
+ 
+Lead In: R04052.10[Default]
+Default Next Question: R04056.01
+--------------------------------------------------------------------------------
+R04057.00    [REGION]                                       Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+UNIVERSE: All
+ 
+    2401       1 NORTHEAST
+    2874       2 NORTH CENTRAL
+    4516       3 SOUTH
+    2314       4 WEST
+  -------
+   12105
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      36
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:              1        Max:              4        Mean:                2.56
+ 
+Lead In: R04056.01[Default]
+Default Next Question: R04060.10
+--------------------------------------------------------------------------------
+R04065.10    [AGEATINT]                                     Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 14: < 15
+    1050          15
+    1524          16
+    1513          17
+    1466          18
+    1543          19
+    1594          20
+    1578          21
+    1590          22
+     283          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31 TO 99999: 31+
+  -------
+   12141
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Min:             15        Max:             23        Mean:               18.78
+ 
+Lead In: R04065.01[Default]
+Default Next Question: R04065.11
+--------------------------------------------------------------------------------
+R04105.00    [FAM-1B]                                       Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: S01D0121
+ 
+I: HAS R HAD HIS/HER BIRTHDAY YET THIS YEAR? IF YES, SUBTRACT YEAR
+OF BIRTH FROM 80. IF NO, SUBTRACT YEAR OF BIRTH FROM 79
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 14: < 15
+       2          15
+     984          16
+    1528          17
+    1505          18
+    1485          19
+    1585          20
+    1620          21
+    1592          22
+    1600          23
+     293          24
+       0          25
+       1          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31 TO 99999: 31+
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:             15        Max:             26        Mean:               19.82
+ 
+Lead In: R04104.00[Default]
+Default Next Question: R04106.00
+--------------------------------------------------------------------------------
+R06028.10    [REGION]                                       Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+UNIVERSE: All
+ 
+    2345       1 NORTHEAST
+    2882       2 NORTH CENTRAL
+    4554       3 SOUTH
+    2348       4 WEST
+  -------
+   12129
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>   12133   VALID SKIP(-4)      62     NON-INTERVIEW(-5)     491
+ 
+Min:              1        Max:              4        Mean:                2.57
+ 
+Lead In: R06025.00[Default]
+Default Next Question: R06029.00
+--------------------------------------------------------------------------------
+R06121.00    [HH1-1]                                        Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: S55DA111
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+     367       1 ABOARD SHIP, BARRACKS
+      68       2 BACHELOR, OFFICER QUARTERS
+     579       3 DORM, FRATERNITY, SORORITY
+       2       4 HOSPITAL
+      68       5 JAIL
+      35       6 OTHER TEMPORARY QUARTERS
+    4174      11 OWN DWELLING UNIT
+      88      12 ON-BASE MIL FAM HOUSING
+      21      13 OFF-BASE MIL FAM HOUSING
+       3      14 ORPHANAGE
+       3      15 RELIGIOUS INSTITUTION
+      89      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+       0      19 R IN PARENTAL HOUSEHOLD
+  -------
+    5497
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5497   VALID SKIP(-4)    6698     NON-INTERVIEW(-5)     491
+ 
+Min:              1        Max:             16        Mean:                9.38
+ 
+Lead In: R06120.00[Default]
+Default Next Question: R06122.00
+--------------------------------------------------------------------------------
+R06186.00    [MARSTAT-COL]                                  Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+UNIVERSE: All
+ 
+    9354       1 NEVER MARRIED
+    2362       2 MARRIED, SPOUSE PRESENT
+     479       3 OTHER
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:              1        Max:              3        Mean:                1.27
+ 
+Lead In: R06185.10[Default]
+Default Next Question: R06186.01
+--------------------------------------------------------------------------------
+R06190.10    [AGEATINT]                                     Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 15: < 16
+    1053          16
+    1519          17
+    1516          18
+    1479          19
+    1582          20
+    1624          21
+    1591          22
+    1600          23
+     231          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32 TO 99999: 32+
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:             16        Max:             24        Mean:               19.77
+ 
+Lead In: R06190.01[Default]
+Default Next Question: R06191.00
+--------------------------------------------------------------------------------
+R06471.03    [FAMSIZE]                                      Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+       0           0: < 1
+    1937           1
+    1716           2
+    2201           3
+    2146           4
+    1722           5
+    1060           6
+     616           7
+     336           8
+     188           9
+     138          10
+      86          11
+      15          12
+      20          13
+       8          14
+       6          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:              1        Max:             15        Mean:                3.87
+ 
+Lead In: R06471.02[Default]
+Default Next Question: 
+--------------------------------------------------------------------------------
+R06501.00    [FAM-1B]                                       Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: S01D0114
+ 
+WE WOULD LIKE TO BEGIN THIS YEAR'S INTERVIEW BY FIRST CHECKING ON YOUR AGE. 
+EXACTLY HOW OLD ARE YOU AS OF TODAY?
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 15: < 16
+       2          16
+     964          17
+    1510          18
+    1515          19
+    1498          20
+    1556          21
+    1616          22
+    1577          23
+    1582          24
+     301          25
+       0          26
+       2          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32 TO 99999: 32+
+  -------
+   12123
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Min:             16        Max:             27        Mean:               20.82
+ 
+Lead In: None.
+Default Next Question: R06504.00
+--------------------------------------------------------------------------------
+R08284.00    [HH1-1]                                        Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: S23DA111
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+     306       1 ABOARD SHIP, BARRACKS
+      86       2 BACHELOR, OFFICER QUARTERS
+     498       3 DORM, FRATERNITY, SORORITY
+       1       4 HOSPITAL
+      91       5 JAIL
+      29       6 OTHER TEMPORARY QUARTERS
+    5326      11 OWN DWELLING UNIT
+      80      12 ON-BASE MIL FAM HOUSING
+      36      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       1      15 RELIGIOUS INSTITUTION
+       7      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+       0      19 R IN PARENTAL HOUSEHOLD
+  -------
+    6461
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6461   VALID SKIP(-4)    5662     NON-INTERVIEW(-5)     563
+ 
+Min:              1        Max:             16        Mean:                9.71
+ 
+Lead In: R08283.00[Default]
+Default Next Question: R08285.00
+--------------------------------------------------------------------------------
+R08967.10    [FAMSIZE]                                      Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2077           1
+    1929           2
+    2352           3
+    2115           4
+    1542           5
+     915           6
+     526           7
+     300           8
+     164           9
+     105          10
+      41          11
+      31          12
+      14          13
+       6          14
+       6          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   12123
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Min:              1        Max:             15        Mean:                3.67
+ 
+Lead In: R08967.01[Default]
+Default Next Question: R08967.11
+--------------------------------------------------------------------------------
+R08979.10    [REGION]                                       Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    2278       1 NORTHEAST
+    2820       2 NORTH CENTRAL
+    4593       3 SOUTH
+    2357       4 WEST
+  -------
+   12048
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12048   VALID SKIP(-4)      75     NON-INTERVIEW(-5)     563
+ 
+Min:              1        Max:              4        Mean:                2.58
+ 
+Lead In: R08979.00[Default]
+Default Next Question: R08982.00
+--------------------------------------------------------------------------------
+R08983.10    [AGEATINT]                                     Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+       0           0 TO 16: < 17
+    1049          17
+    1489          18
+    1525          19
+    1472          20
+    1571          21
+    1622          22
+    1567          23
+    1597          24
+     231          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33 TO 99999: 33+
+  -------
+   12123
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Min:             17        Max:             25        Mean:               20.78
+ 
+Lead In: R08983.01[Default]
+Default Next Question: R08984.00
+--------------------------------------------------------------------------------
+R08984.00    [MARSTAT-COL]                                  Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+UNIVERSE: All
+ 
+    8549       1 NEVER MARRIED
+    2947       2 MARRIED, SPOUSE PRESENT
+     623       3 OTHER
+  -------
+   12119
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Min:              1        Max:              3        Mean:                1.35
+ 
+Lead In: R08983.10[Default]
+Default Next Question: R08984.01
+--------------------------------------------------------------------------------
+R09001.00    [FAM-1B]                                       Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: Q0114
+ 
+WE WOULD LIKE TO BEGIN THIS YEAR'S INTERVIEW BY FIRST CHECKING
+ON YOUR AGE. EXACTLY HOW OLD ARE YOU AS OF TODAY?
+ 
+UNIVERSE: All
+ 
+       0           0 TO 15: < 16
+       0          16
+       1          17
+     998          18
+    1525          19
+    1509          20
+    1511          21
+    1559          22
+    1667          23
+    1582          24
+    1590          25
+     279          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32 TO 99999: 32+
+  -------
+   12221
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:             17        Max:             26        Mean:                21.8
+ 
+Lead In: None.
+Default Next Question: R09004.00
+--------------------------------------------------------------------------------
+R09009.00    [FAM-2A]                                       Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             COUNTRY OF BIRTH
+ 
+ORIGINAL QUESTION NAME: Q0135
+ 
+IN WHAT COUNTRY WERE YOU BORN?
+ 
+UNIVERSE: All
+ 
+   11323       1 IN THE US
+     878       0 IN OTHER COUNTRY
+  -------
+   12201
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:              0        Max:              1        Mean:                 .93
+ 
+Lead In: R09008.00[Default]
+Default Next Question: R09010.00
+--------------------------------------------------------------------------------
+R10757.00    [HH1-1]                                        Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: QA111
+ 
+I: CODE ONE: YOUTH RESPONDENT IS LIVING IN:
+ 
+     262       1 ABOARD SHIP, BARRACKS
+      90       2 BACHELOR, OFFICER QUARTERS
+     516       3 DORM, FRATERNITY, SORORITY
+       7       4 HOSPITAL
+     104       5 JAIL
+      28       6 OTHER TEMPORARY QUARTERS
+    6289      11 OWN DWELLING UNIT
+      83      12 ON-BASE MIL FAM HOUSING
+      24      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       1      15 RELIGIOUS INSTITUTION
+       2      16 OTHER INDIVIDUAL QUARTERS
+     980      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+       0      19 R IN PARENTAL HOUSEHOLD
+  -------
+    8386
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>    8390   VALID SKIP(-4)    3831     NON-INTERVIEW(-5)     465
+ 
+Min:              1        Max:             17        Mean:               10.72
+ 
+Lead In: R10756.00[Default]
+Default Next Question: R10758.00
+--------------------------------------------------------------------------------
+R11444.10    [FAMSIZE]                                      Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2229           1
+    2133           2
+    2494           3
+    2149           4
+    1402           5
+     782           6
+     408           7
+     262           8
+     155           9
+      92          10
+      50          11
+      31          12
+      18          13
+       4          14
+      12          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   12221
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:              1        Max:             15        Mean:                3.51
+ 
+Lead In: R11444.01[Default]
+Default Next Question: R11445.00
+--------------------------------------------------------------------------------
+R11448.00    [REGION]                                       Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    2326       1 NORTHEAST
+    2782       2 NORTH CENTRAL
+    4619       3 SOUTH
+    2418       4 WEST
+  -------
+   12145
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12145   VALID SKIP(-4)      76     NON-INTERVIEW(-5)     465
+ 
+Min:              1        Max:              4        Mean:                2.59
+ 
+Lead In: R11447.10[Default]
+Default Next Question: R11449.00
+--------------------------------------------------------------------------------
+R11449.00    [MARSTAT-COL]                                  Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    7840       1 NEVER MARRIED
+    3605       2 MARRIED, SPOUSE PRESENT
+     774       3 OTHER
+  -------
+   12219
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:              1        Max:              3        Mean:                1.42
+ 
+Lead In: R11448.00[Default]
+Default Next Question: R11449.01
+--------------------------------------------------------------------------------
+R11451.10    [AGEATINT]                                     Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 17: < 18
+    1070          18
+    1512          19
+    1519          20
+    1489          21
+    1569          22
+    1658          23
+    1602          24
+    1597          25
+     205          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34 TO 99999: 34+
+  -------
+   12221
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Min:             18        Max:             26        Mean:               21.77
+ 
+Lead In: R11451.01[Default]
+Default Next Question: R11451.11
+--------------------------------------------------------------------------------
+R14514.00    [HH1-1]                                        Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q7811
+ 
+I: CODE ONE: YOUTH RESPONDENT IS LIVING IN:
+ 
+     219       1 ABOARD SHIP, BARRACKS
+      70       2 BACHELOR, OFFICER QUARTERS
+     366       3 DORM, FRATERNITY, SORORITY
+       4       4 HOSPITAL
+     103       5 JAIL
+      31       6 OTHER TEMPORARY QUARTERS
+    6988      11 OWN DWELLING UNIT
+     108      12 ON-BASE MIL FAM HOUSING
+      29      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       4      15 RELIGIOUS INSTITUTION
+      10      16 OTHER INDIVIDUAL QUARTERS
+    1197      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+       0      19 R IN PARENTAL HOUSEHOLD
+  -------
+    9129
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>    9141   VALID SKIP(-4)    2928     NON-INTERVIEW(-5)     617
+ 
+Min:              1        Max:             17        Mean:               11.09
+ 
+Lead In: R14513.00[Default]
+Default Next Question: R14515.00
+--------------------------------------------------------------------------------
+R15196.10    [FAMSIZE]                                      Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2382           1
+    2226           2
+    2610           3
+    2108           4
+    1235           5
+     641           6
+     345           7
+     243           8
+     128           9
+      64          10
+      40          11
+      22          12
+      17          13
+       6          14
+       2          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   12069
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12069   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     617
+ 
+Min:              1        Max:             15        Mean:                3.34
+ 
+Lead In: R15196.01[Default]
+Default Next Question: R15197.00
+--------------------------------------------------------------------------------
+R15200.00    [REGION]                                       Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    2263       1 NORTHEAST
+    2690       2 NORTH CENTRAL
+    4487       3 SOUTH
+    2444       4 WEST
+  -------
+   11884
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     158
+TOTAL =========>   12042   VALID SKIP(-4)      27     NON-INTERVIEW(-5)     617
+ 
+Min:              1        Max:              4        Mean:                 2.6
+ 
+Lead In: R15199.10[Default]
+Default Next Question: R15201.00
+--------------------------------------------------------------------------------
+R15201.00    [MARSTAT-COL]                                  Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    7093       1 NEVER MARRIED
+    4026       2 MARRIED, SPOUSE PRESENT
+     949       3 OTHER
+  -------
+   12068
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   12069   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     617
+ 
+Min:              1        Max:              3        Mean:                1.49
+ 
+Lead In: R15200.00[Default]
+Default Next Question: R15201.01
+--------------------------------------------------------------------------------
+R15203.10    [AGEATINT]                                     Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 18: < 19
+    1054          19
+    1489          20
+    1500          21
+    1479          22
+    1551          23
+    1638          24
+    1586          25
+    1561          26
+     211          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35 TO 99999: 35+
+  -------
+   12069
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12069   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     617
+ 
+Min:             19        Max:             27        Mean:               22.77
+ 
+Lead In: R15203.01[Default]
+Default Next Question: R15203.11
+--------------------------------------------------------------------------------
+R17986.00    [HH1-1]                                        Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q5711
+ 
+I:CODE ONE: YOUTH R IS LIVING IN:
+ 
+     138       1 ABOARD SHIP, BARRACKS
+      63       2 BACHELOR, OFFICER QUARTERS
+     205       3 DORM, FRATERNITY, SORORITY
+       5       4 HOSPITAL
+     105       5 JAIL
+      51       6 OTHER TEMPORARY QUARTERS
+    6774      11 OWN DWELLING UNIT
+      42      12 ON-BASE MIL FAM HOUSING
+      24      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       4      15 RELIGIOUS INSTITUTION
+      33      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+     522      18 HHI CONDUCTED WITH PARENT
+    2927      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10893
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:              1        Max:             19        Mean:                13.1
+ 
+Lead In: R17985.00[Default]
+Default Next Question: R17987.00
+--------------------------------------------------------------------------------
+R18902.10    [FAMSIZE]                                      Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2232           1
+    2063           2
+    2400           3
+    1917           4
+    1079           5
+     543           6
+     255           7
+     181           8
+     103           9
+      54          10
+      29          11
+      14          12
+      21          13
+       0          14
+       3          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10894
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:              1        Max:             15        Mean:                3.25
+ 
+Lead In: R18902.01[Default]
+Default Next Question: R18903.00
+--------------------------------------------------------------------------------
+R18907.00    [REGION]                                       Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    2054       1 NORTHEAST
+    2460       2 NORTH CENTRAL
+    4143       3 SOUTH
+    2152       4 WEST
+  -------
+   10809
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      13
+TOTAL =========>   10822   VALID SKIP(-4)      72     NON-INTERVIEW(-5)    1792
+ 
+Min:              1        Max:              4        Mean:                2.59
+ 
+Lead In: R18906.01[Default]
+Default Next Question: R18908.00
+--------------------------------------------------------------------------------
+R18908.00    [MARSTAT-COL]                                  Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    6058       1 NEVER MARRIED
+    3851       2 MARRIED, SPOUSE PRESENT
+     984       3 OTHER
+  -------
+   10893
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:              1        Max:              3        Mean:                1.53
+ 
+Lead In: R18907.00[Default]
+Default Next Question: R18908.01
+--------------------------------------------------------------------------------
+R18910.10    [AGEATINT]                                     Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 19: < 20
+    1032          20
+    1495          21
+    1487          22
+    1439          23
+    1436          24
+    1338          25
+    1255          26
+    1243          27
+     169          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36 TO 99999: 36+
+  -------
+   10894
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:             20        Max:             28        Mean:               23.56
+ 
+Lead In: R18910.01[Default]
+Default Next Question: R18910.11
+--------------------------------------------------------------------------------
+R21602.00    [HH1-1]                                        Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q7211
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+      64       1 ABOARD SHIP, BARRACKS
+      53       2 BACHELOR, OFFICER QUARTERS
+     119       3 DORM, FRATERNITY, SORORITY
+       1       4 HOSPITAL
+     115       5 JAIL
+      33       6 OTHER TEMPORARY QUARTERS
+    7312      11 OWN DWELLING UNIT
+      51      12 ON-BASE MIL FAM HOUSING
+      25      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       3      15 RELIGIOUS INSTITUTION
+      24      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+     300      18 HHI CONDUCTED WITH PARENT
+    2555      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:              1        Max:             19        Mean:               12.86
+ 
+Lead In: R21601.00[Default]
+Default Next Question: R21603.00
+--------------------------------------------------------------------------------
+R22574.10    [FAMSIZE]                                      Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2163           1
+    2135           2
+    2433           3
+    2028           4
+     929           5
+     495           6
+     187           7
+     133           8
+      67           9
+      31          10
+      23          11
+      14          12
+      13          13
+       2          14
+       2          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:              1        Max:             15        Mean:                3.13
+ 
+Lead In: R22574.00[Default]
+Default Next Question: R22575.00
+--------------------------------------------------------------------------------
+R22578.00    [REGION]                                       Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    1993       1 NORTHEAST
+    2403       2 NORTH CENTRAL
+    4086       3 SOUTH
+    2091       4 WEST
+  -------
+   10573
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10573   VALID SKIP(-4)      82     NON-INTERVIEW(-5)    2031
+ 
+Min:              1        Max:              4        Mean:                2.59
+ 
+Lead In: R22577.01[Default]
+Default Next Question: R22579.00
+--------------------------------------------------------------------------------
+R22579.00    [MARSTAT-COL]                                  Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    5319       1 NEVER MARRIED
+    4276       2 MARRIED, SPOUSE PRESENT
+    1060       3 OTHER
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:              1        Max:              3        Mean:                 1.6
+ 
+Lead In: R22578.00[Default]
+Default Next Question: R22579.01
+--------------------------------------------------------------------------------
+R22581.10    [AGEATINT]                                     Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 20: < 21
+     921          21
+    1442          22
+    1458          23
+    1404          24
+    1421          25
+    1320          26
+    1226          27
+    1207          28
+     256          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37 TO 99999: 37+
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:             21        Max:             29        Mean:               24.63
+ 
+Lead In: R22581.01[Default]
+Default Next Question: R22581.11
+--------------------------------------------------------------------------------
+R23691.00    [HH1-1]                                        Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q2211
+ 
+COULD YOU PLEASE DESCRIBE YOUR CURRENT PLACE OF RESIDENCE TO ME?
+FOR EXAMPLE, DO YOU LIVE IN YOUR OWN HOME OR APARTMENT, WITH YOUR
+PARENTS OR IN-LAWS?
+ 
+      38       1 ABOARD SHIP, BARRACKS
+      21       2 BACHELOR, OFFICER QUARTERS
+      28       3 DORM, FRATERNITY, SORORITY
+       6       4 HOSPITAL
+     128       5 JAIL
+     133       6 OTHER TEMPORARY QUARTERS
+    7786      11 OWN DWELLING UNIT
+      67      12 ON-BASE MIL FAM HOUSING
+      24      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       1      15 RELIGIOUS INSTITUTION
+      29      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+    2223      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10484
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Min:              1        Max:             19        Mean:               12.51
+ 
+Lead In: R23689.19[Default]
+Default Next Question: R23692.00
+--------------------------------------------------------------------------------
+R24446.10    [FAMSIZE]                                      Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2121           1
+    2159           2
+    2422           3
+    2037           4
+     926           5
+     425           6
+     189           7
+      92           8
+      58           9
+      23          10
+      11          11
+       9          12
+      10          13
+       3          14
+       0          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Min:              1        Max:             14        Mean:                3.08
+ 
+Lead In: R24446.00[Default]
+Default Next Question: R24447.00
+--------------------------------------------------------------------------------
+R24452.00    [REGION]                                       Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    1952       1 NORTHEAST
+    2378       2 NORTH CENTRAL
+    4022       3 SOUTH
+    2067       4 WEST
+  -------
+   10419
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10419   VALID SKIP(-4)      66     NON-INTERVIEW(-5)    2201
+ 
+Min:              1        Max:              4        Mean:                 2.6
+ 
+Lead In: R24451.01[Default]
+Default Next Question: R24453.00
+--------------------------------------------------------------------------------
+R24453.00    [MARSTAT-COL]                                  Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    4629       1 NEVER MARRIED
+    4596       2 MARRIED, SPOUSE PRESENT
+    1260       3 OTHER
+  -------
+   10485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Min:              1        Max:              3        Mean:                1.68
+ 
+Lead In: R24452.00[Default]
+Default Next Question: R24453.01
+--------------------------------------------------------------------------------
+R24455.10    [AGEATINT]                                     Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+     647          22
+    1415          23
+    1468          24
+    1371          25
+    1421          26
+    1328          27
+    1192          28
+    1209          29
+     434          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+   10485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Min:             22        Max:             30        Mean:                25.8
+ 
+Lead In: R24455.01[Default]
+Default Next Question: R24455.11
+--------------------------------------------------------------------------------
+R25000.00    [HH1-1]                                        Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: HHI.1A
+ 
+I: CODE ONE: YOUTH RESPONDENT IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+      23       1 ABOARD SHIP, BARRACKS
+      28       2 BACHELOR, OFFICER QUARTERS
+       9       3 DORM, FRATERNITY, SORORITY
+       7       4 HOSPITAL
+     128       5 JAIL
+      79       6 OTHER TEMPORARY QUARTERS
+    8375      11 OWN DWELLING UNIT
+      56      12 ON-BASE MIL FAM HOUSING
+      29      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       3      15 RELIGIOUS INSTITUTION
+      37      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+    1689      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10463
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   10465   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2221
+ 
+Min:              1        Max:             19        Mean:               12.15
+ 
+Lead In: None.
+Default Next Question: R25001.00
+--------------------------------------------------------------------------------
+R28701.10    [FAMSIZE]                                      Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2083           1
+    2183           2
+    2394           3
+    2107           4
+     979           5
+     365           6
+     182           7
+      93           8
+      39           9
+      16          10
+      13          11
+       5          12
+       1          13
+       4          14
+       1          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10465
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10465   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2221
+ 
+Min:              1        Max:             15        Mean:                3.05
+ 
+Lead In: R28701.00[Default]
+Default Next Question: R28702.00
+--------------------------------------------------------------------------------
+R28708.00    [REGION]                                       Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+    1933       1 NORTHEAST
+    2416       2 NORTH CENTRAL
+    4013       3 SOUTH
+    2041       4 WEST
+  -------
+   10403
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10403   VALID SKIP(-4)      62     NON-INTERVIEW(-5)    2221
+ 
+Min:              1        Max:              4        Mean:                2.59
+ 
+Lead In: R28707.00[Default]
+Default Next Question: R28709.00
+--------------------------------------------------------------------------------
+R28709.00    [MARSTAT-COL]                                  Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    4038       1 NEVER MARRIED
+    4966       2 MARRIED, SPOUSE PRESENT
+    1457       3 OTHER
+  -------
+   10461
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>   10465   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2221
+ 
+Min:              1        Max:              3        Mean:                1.75
+ 
+Lead In: R28708.00[Default]
+Default Next Question: R28710.00
+--------------------------------------------------------------------------------
+R28713.00    [AGEATINT]                                     Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+       0          22
+     334          23
+    1407          24
+    1445          25
+    1400          26
+    1385          27
+    1361          28
+    1196          29
+    1219          30
+     718          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+   10465
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10465   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2221
+ 
+Min:             23        Max:             31        Mean:               27.04
+ 
+Lead In: R28712.01[Default]
+Default Next Question: R28713.01
+--------------------------------------------------------------------------------
+R29000.00    [HH1-1]                                        Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q0110
+ 
+I: CODE ONE: YOUTH RESPONDENT IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+      21       1 ABOARD SHIP, BARRACKS
+      21       2 BACHELOR, OFFICER QUARTERS
+       5       3 DORM, FRATERNITY, SORORITY
+       4       4 HOSPITAL
+     139       5 JAIL
+      73       6 OTHER TEMPORARY QUARTERS
+    8776      11 OWN DWELLING UNIT
+      74      12 ON-BASE MIL FAM HOUSING
+      14      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       5      15 RELIGIOUS INSTITUTION
+      27      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+    1443      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10602
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Min:              1        Max:             19        Mean:               11.96
+ 
+Lead In: None.
+Default Next Question: R29001.00
+--------------------------------------------------------------------------------
+R30739.10    [FAMSIZE]                                      Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+ACTUAL NUMBER
+ 
+       0           0: < 1
+    2088           1
+    2151           2
+    2379           3
+    2240           4
+    1026           5
+     402           6
+     161           7
+      86           8
+      31           9
+      13          10
+      11          11
+       6          12
+       2          13
+       8          14
+       1          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10605
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Min:              1        Max:             15        Mean:                3.07
+ 
+Lead In: R30739.00[Default]
+Default Next Question: R30740.00
+--------------------------------------------------------------------------------
+R30745.00    [REGION]                                       Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1866       1 NORTHEAST
+    2405       2 NORTH CENTRAL
+    3957       3 SOUTH
+    2020       4 WEST
+  -------
+   10248
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10248   VALID SKIP(-4)     357     NON-INTERVIEW(-5)    2081
+ 
+Min:              1        Max:              4        Mean:                 2.6
+ 
+Lead In: R30744.00[Default]
+Default Next Question: R30746.00
+--------------------------------------------------------------------------------
+R30746.00    [MARSTAT-COL]                                  Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    3734       1 NEVER MARRIED
+    5282       2 MARRIED, SPOUSE PRESENT
+    1589       3 OTHER
+  -------
+   10605
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Min:              1        Max:              3        Mean:                 1.8
+ 
+Lead In: R30745.00[Default]
+Default Next Question: R30747.00
+--------------------------------------------------------------------------------
+R30750.00    [AGEATINT]                                     Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+       0          22
+       0          23
+     462          24
+    1415          25
+    1475          26
+    1408          27
+    1392          28
+    1365          29
+    1214          30
+    1252          31
+     622          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+   10605
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Min:             24        Max:             32        Mean:               27.96
+ 
+Lead In: R30749.01[Default]
+Default Next Question: R30750.01
+--------------------------------------------------------------------------------
+R31000.00    [HH1-1]                                        Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q0109
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+      18       1 ABOARD SHIP, BARRACKS
+      14       2 BACHELOR, OFFICER QUARTERS
+       3       3 DORM, FRATERNITY, SORORITY
+       6       4 HOSPITAL
+     134       5 JAIL
+      68       6 OTHER TEMPORARY QUARTERS
+    8832      11 OWN DWELLING UNIT
+      52      12 ON-BASE MIL FAM HOUSING
+      17      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       6      15 RELIGIOUS INSTITUTION
+      42      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+    1244      19 R IN PARENTAL HOUSEHOLD
+  -------
+   10436
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:              1        Max:             19        Mean:               11.84
+ 
+Lead In: None.
+Default Next Question: R31001.00
+--------------------------------------------------------------------------------
+R34006.00    [FAMSIZE]                                      Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF "FAMILY SIZE" 
+USED TO DETERMINE "FAMILY POVERY STATUS". SEE APPENDIX 2: TOTAL NET FAMILY 
+INCOME.
+ 
+       0           0: < 1
+    1995           1
+    2083           2
+    2318           3
+    2275           4
+    1053           5
+     390           6
+     180           7
+      76           8
+      26           9
+      15          10
+       7          11
+      10          12
+       7          13
+       0          14
+       1          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+   10436
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:              1        Max:             15        Mean:                 3.1
+ 
+Lead In: R34005.00[Default]
+Default Next Question: R34007.00
+--------------------------------------------------------------------------------
+R34012.00    [REGION]                                       Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1843       1 NORTHEAST
+    2410       2 NORTH CENTRAL
+    3999       3 SOUTH
+    2040       4 WEST
+  -------
+   10292
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10292   VALID SKIP(-4)     144     NON-INTERVIEW(-5)    2250
+ 
+Min:              1        Max:              4        Mean:                2.61
+ 
+Lead In: R34011.00[Default]
+Default Next Question: R34013.00
+--------------------------------------------------------------------------------
+R34013.00    [MARSTAT-COL]                                  Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    3376       1 NEVER MARRIED
+    5384       2 MARRIED, SPOUSE PRESENT
+    1675       3 OTHER
+  -------
+   10435
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:              1        Max:              3        Mean:                1.84
+ 
+Lead In: R34012.00[Default]
+Default Next Question: R34014.00
+--------------------------------------------------------------------------------
+R34017.00    [AGEATINT]                                     Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+       0          22
+       0          23
+       0          24
+     350          25
+    1374          26
+    1421          27
+    1403          28
+    1386          29
+    1356          30
+    1190          31
+    1220          32
+     736          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+   10436
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:             25        Max:             33        Mean:               29.05
+ 
+Lead In: R34016.01[Default]
+Default Next Question: R34017.01
+--------------------------------------------------------------------------------
+R35000.00    [HH1-1]                                        Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q0109
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+      17       1 ABOARD SHIP, BARRACKS
+      21       2 BACHELOR, OFFICER QUARTERS
+       6       3 DORM, FRATERNITY, SORORITY
+       3       4 HOSPITAL
+     121       5 JAIL
+      46       6 OTHER TEMPORARY QUARTERS
+    7681      11 OWN DWELLING UNIT
+      30      12 ON-BASE MIL FAM HOUSING
+      15      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       3      15 RELIGIOUS INSTITUTION
+      18      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+    1057      19 R IN PARENTAL HOUSEHOLD
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Min:              1        Max:             19        Mean:                11.8
+ 
+Lead In: None.
+Default Next Question: R35001.00
+--------------------------------------------------------------------------------
+R36560.00    [FAMSIZE]                                      Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERTY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+       0           0: < 1
+    1694           1
+    1733           2
+    1950           3
+    2016           4
+     971           5
+     406           6
+     137           7
+      59           8
+      21           9
+      11          10
+       6          11
+      11          12
+       3          13
+       0          14
+       0          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Min:              1        Max:             13        Mean:                3.14
+ 
+Lead In: R36559.00[Default]
+Default Next Question: R36561.00
+--------------------------------------------------------------------------------
+R36566.00    [REGION]                                       Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1511       1 NORTHEAST
+    2087       2 NORTH CENTRAL
+    3439       3 SOUTH
+    1855       4 WEST
+  -------
+    8892
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8892   VALID SKIP(-4)     126     NON-INTERVIEW(-5)    3668
+ 
+Min:              1        Max:              4        Mean:                2.63
+ 
+Lead In: R36565.00[Default]
+Default Next Question: R36567.00
+--------------------------------------------------------------------------------
+R36567.00    [MARSTAT-COL]                                  Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    2867       1 NEVER MARRIED
+    4698       2 MARRIED, SPOUSE PRESENT
+    1453       3 OTHER
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Min:              1        Max:              3        Mean:                1.84
+ 
+Lead In: R36566.00[Default]
+Default Next Question: R36568.00
+--------------------------------------------------------------------------------
+R36571.00    [AGEATINT]                                     Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+       0          22
+       0          23
+       0          24
+       0          25
+     382          26
+    1213          27
+    1303          28
+    1265          29
+    1235          30
+    1147          31
+     994          32
+     989          33
+     490          34
+       0          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Min:             26        Max:             34        Mean:               29.89
+ 
+Lead In: R36570.01[Default]
+Default Next Question: R36571.01
+--------------------------------------------------------------------------------
+R37000.00    [HH1-1]                                        Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: Q0109
+ 
+I: CODE ONE: YOUTH R IS LIVING IN:
+ 
+UNIVERSE: All
+ 
+      33       1 ABOARD SHIP, BARRACKS
+       4       2 BACHELOR, OFFICER QUARTERS
+       4       3 DORM, FRATERNITY, SORORITY
+       2       4 HOSPITAL
+     138       5 JAIL
+      47       6 OTHER TEMPORARY QUARTERS
+    7856      11 OWN DWELLING UNIT
+      26      12 ON-BASE MIL FAM HOUSING
+       8      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       1      15 RELIGIOUS INSTITUTION
+      30      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+     867      19 R IN PARENTAL HOUSEHOLD
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:              1        Max:             19        Mean:               11.63
+ 
+Lead In: None.
+Default Next Question: R37001.00
+--------------------------------------------------------------------------------
+R40065.00    [FAMSIZE]                                      Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: VARIABLE CREATION PROCEDURE IS COMPARABLE TO COMPUTATION OF
+"FAMILY SIZE" USED TO DETERMINE "FAMILY POVERTY STATUS". SEE APPENDIX
+2: TOTAL NET FAMILY INCOME.
+ 
+       0           0: < 1
+    1602           1
+    1709           2
+    1864           3
+    2150           4
+    1018           5
+     432           6
+     126           7
+      43           8
+      38           9
+      13          10
+       8          11
+       6          12
+       6          13
+       1          14
+       0          15
+       0          16
+       0          17 TO 99999: 17+
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:              1        Max:             14        Mean:                 3.2
+ 
+Lead In: R40064.00[Default]
+Default Next Question: R40066.00
+--------------------------------------------------------------------------------
+R40071.00    [REGION]                                       Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1506       1 NORTHEAST
+    2071       2 NORTH CENTRAL
+    3460       3 SOUTH
+    1852       4 WEST
+  -------
+    8889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8891   VALID SKIP(-4)     125     NON-INTERVIEW(-5)    3670
+ 
+Min:              1        Max:              4        Mean:                2.64
+ 
+Lead In: R40070.00[Default]
+Default Next Question: R40072.00
+--------------------------------------------------------------------------------
+R40072.00    [MARSTAT-COL]                                  Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+    2667       1 NEVER MARRIED
+    4802       2 MARRIED, SPOUSE PRESENT
+    1547       3 OTHER
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:              1        Max:              3        Mean:                1.88
+ 
+Lead In: R40071.00[Default]
+Default Next Question: R40073.00
+--------------------------------------------------------------------------------
+R40076.00    [AGEATINT]                                     Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL AGE
+ 
+       0           0 TO 21: < 22
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+     374          27
+    1197          28
+    1314          29
+    1248          30
+    1252          31
+    1143          32
+     984          33
+     981          34
+     523          35
+       0          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:             27        Max:             35        Mean:               30.91
+ 
+Lead In: R40075.01[Default]
+Default Next Question: R40076.01
+--------------------------------------------------------------------------------
+R41003.00    [HH1-1]                                        Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+ORIGINAL QUESTION NAME: HH1-1
+ 
+(INTERVIEWER: CODE ONE: [Respondent's first name] [Respondent's middle name] 
+[Respondent's last name] IS LIVING
+IN:)
+ 
+UNIVERSE: All
+ 
+       2       1 ABOARD SHIP, BARRACKS
+       6       2 BACHELOR, OFFICER QUARTERS
+       5       3 DORM, FRATERNITY, SORORITY
+       4       4 HOSPITAL
+     146       5 JAIL
+      38       6 OTHER TEMPORARY QUARTERS
+    7717      11 OWN DWELLING UNIT
+      44      12 ON-BASE MIL FAM HOUSING
+      11      13 OFF-BASE MIL FAM HOUSING
+       0      14 ORPHANAGE
+       3      15 RELIGIOUS INSTITUTION
+      95      16 OTHER INDIVIDUAL QUARTERS
+       0      17 PARENTAL
+       0      18 HHI CONDUCTED WITH PARENT
+     939      19 R IN PARENTAL HOUSEHOLD
+  -------
+    9010
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Min:              1        Max:             19        Mean:               11.76
+ 
+Lead In: R41002.02[Default]
+Default Next Question: R41004.00
+--------------------------------------------------------------------------------
+R44176.00    [FAMSIZE]                                      Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+ORIGINAL QUESTION NAME: FAMSIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1549           1
+    1627           2
+    1865           3
+    2217           4
+    1080           5
+     425           6
+     148           7
+      49           8
+      30           9
+       7          10
+       6          11
+       2          12
+       6          13
+       0          14
+       0          15
+       0          16 TO 99999: 16+
+  -------
+    9011
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Min:              1        Max:             13        Mean:                3.24
+ 
+Lead In: R44175.00[Default]
+Default Next Question: R44177.00
+--------------------------------------------------------------------------------
+R44182.00    [REGION]                                       Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+ORIGINAL QUESTION NAME: REGION
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+    1492       1 NORTHEAST
+    2058       2 NORTH CENTRAL
+    3457       3 SOUTH
+    1781       4 WEST
+  -------
+    8788
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8788   VALID SKIP(-4)     223     NON-INTERVIEW(-5)    3675
+ 
+Min:              1        Max:              4        Mean:                2.63
+ 
+Lead In: R44181.00[Default]
+Default Next Question: R44183.00
+--------------------------------------------------------------------------------
+R44183.00    [MARSTAT-COL]                                  Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+ORIGINAL QUESTION NAME: MARSTAT-COL
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    2521       1 NEVER MARRIED
+    4863       2 MARRIED, SPOUSE PRESENT
+    1627       3 OTHER
+  -------
+    9011
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Min:              1        Max:              3        Mean:                 1.9
+ 
+Lead In: R44182.00[Default]
+Default Next Question: R44184.00
+--------------------------------------------------------------------------------
+R44187.00    [AGEATINT]                                     Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+ORIGINAL QUESTION NAME: AGEATINT
+ 
+ACTUAL AGE
+ 
+COMMENT: Age at interview date
+ 
+       0           0 TO 21: < 22
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+     433          28
+    1207          29
+    1311          30
+    1244          31
+    1241          32
+    1147          33
+     970          34
+    1001          35
+     457          36
+       0          37
+       0          38 TO 99999: 38+
+  -------
+    9011
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Min:             28        Max:             36        Mean:               31.86
+ 
+Lead In: R44186.01[Default]
+Default Next Question: R44187.01
+--------------------------------------------------------------------------------
+R45003.00    [HH1-1]                                        Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+(INTERVIEWER: CODE ONE: [Respondent's first name] [Respondent's middle name] 
+[Respondent's last name] IS LIVING IN:)
+ 
+    7743      11 OWN DWELLING UNIT
+     807      19 RESPONDENT IN PARENT HOUSEHOLD
+       0      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       9      13 OFF-BASE MILITARY FAMILY HOUSING
+      34      12 ON-BASE MILITARY FAMILY HOUSING
+      73      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+      10       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R45012.00)
+       1       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R45012.00)
+       4       3 DORMITORY, FRATERNITY OR SORORITY   (Go To R45004.00)
+     153       5 JAIL   (Go To R45004.00)
+       3       4 HOSPITAL   (Go To R45004.00)
+      52       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)   
+                      (Go To R45004.00)
+  -------
+    8889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8889   VALID SKIP(-4)       2     NON-INTERVIEW(-5)    3795
+ 
+Min:              1        Max:             19        Mean:               11.62
+ 
+Lead In: R45002.02[Default]
+Default Next Question: R45014.00
+--------------------------------------------------------------------------------
+R50806.00    [FAMSIZE]                                      Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1549           1
+    1531           2
+    1827           3
+    2209           4
+    1119           5
+     420           6
+     146           7
+      49           8
+      21           9
+      18          10 TO 999: 10+
+  -------
+    8889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8891   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3795
+ 
+Min:              1        Max:             14        Mean:                3.25
+ 
+Lead In: R50805.00[Default]
+Default Next Question: R50807.00
+--------------------------------------------------------------------------------
+R50812.00    [REGION]                                       Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1443           1: 1  NORTHEAST
+    2040           2: 2  NORTH CENTRAL
+    3447           3: 3  SOUTH
+    1751           4: 4  WEST
+  -------
+    8681
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8681   VALID SKIP(-4)     210     NON-INTERVIEW(-5)    3795
+ 
+Min:              1        Max:              4        Mean:                2.63
+ 
+Lead In: R50811.00[Default]
+Default Next Question: R50813.00
+--------------------------------------------------------------------------------
+R50813.00    [MARSTAT-COL]                                  Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    2327           1: 1  NEVER MARRIED
+    4804           2: 2  MARRIED, SPOUSE PRESENT
+    1753           3: 3  OTHER
+  -------
+    8884
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>    8891   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3795
+ 
+Min:              1        Max:              3        Mean:                1.94
+ 
+Lead In: R50812.00[Default]
+Default Next Question: R50814.00
+--------------------------------------------------------------------------------
+R50817.00    [AGEATINT]                                     Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+       0           0 TO 26: < 26
+       0          27
+       0          28
+     333          29
+    1198          30
+    1296          31
+    1221          32
+    1253          33
+    1137          34
+     940          35
+     988          36
+     523          37
+       0          38
+       0          39
+       0          40 TO 99: 40+
+  -------
+    8889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8891   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3795
+ 
+Min:             29        Max:             37        Mean:               32.93
+ 
+Lead In: R50816.00[Default]
+Default Next Question: R50817.01
+--------------------------------------------------------------------------------
+R51659.00    [FAMSIZE]                                      Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1477           1
+    1422           2
+    1717           3
+    2195           4
+    1141           5
+     430           6
+     153           7
+      56           8
+      26           9
+      19          10 TO 999: 10+
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              1        Max:             13        Mean:                 3.3
+ 
+Lead In: R51658.00[Default]
+Default Next Question: R51660.00
+--------------------------------------------------------------------------------
+R51665.00    [REGION]                                       Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1374           1: NORTHEAST
+    2002           2: NORTH CENTRAL
+    3454           3: SOUTH
+    1694           4: WEST
+  -------
+    8524
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    8525   VALID SKIP(-4)     111     NON-INTERVIEW(-5)    4050
+ 
+Min:              1        Max:              4        Mean:                2.64
+ 
+Lead In: R51664.00[Default]
+Default Next Question: R51666.00
+--------------------------------------------------------------------------------
+R51666.00    [MARSTAT-COL]                                  Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    2062           1: NEVER MARRIED
+    4736           2: MARRIED, SPOUSE PRESENT
+    1838           3: OTHER
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              1        Max:              3        Mean:                1.97
+ 
+Lead In: R51665.00[Default]
+Default Next Question: R51667.00
+--------------------------------------------------------------------------------
+R51670.00    [AGEATINT]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+NOTE: ACTUAL AGE
+ 
+       0           0 TO 26: < 26
+       0          27
+       0          28
+       0          29
+       0          30
+     480          31
+    1167          32
+    1230          33
+    1198          34
+    1198          35
+    1080          36
+     907          37
+     974          38
+     402          39
+       0          40 TO 99: 40+
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:             31        Max:             39        Mean:               34.81
+ 
+Lead In: R51669.02[Default]
+Default Next Question: R51670.01
+--------------------------------------------------------------------------------
+R52003.00    [HH1-1]                                        Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+(INTERVIEWER: CODE ONE: [Respondent's first name](9) [Respondent's middle 
+name](9) [Respondent's last name](9) IS LIVING IN:)
+ 
+    7548      11 OWN DWELLING UNIT
+     673      19 RESPONDENT IN PARENT HOUSEHOLD
+       1      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       7      13 OFF-BASE MILITARY FAMILY HOUSING
+      34      12 ON-BASE MILITARY FAMILY HOUSING
+      93      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       1       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R52011.00)
+       2       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R52011.00)
+       4       3 DORMITORY, FRATERNITY OR SORORITY   (Go To R52009.00)
+     150       5 JAIL   (Go To R52009.00)
+       2       4 HOSPITAL   (Go To R52009.00)
+     121       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)   
+                      (Go To R52009.00)
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              1        Max:             19        Mean:                11.5
+ 
+Lead In: R52002.02[Default]
+Default Next Question: R52012.00
+--------------------------------------------------------------------------------
+R58002.00    [HH1-1]                                        Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+(INTERVIEWER: CODE ONE: [r's first name] [r's middle name] [r's last name] IS 
+LIVING IN:)
+ 
+    7490      11 OWN DWELLING UNIT
+     582      19 RESPONDENT IN PARENT HOUSEHOLD
+       3      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       6      13 OFF-BASE MILITARY FAMILY HOUSING
+      25      12 ON-BASE MILITARY FAMILY HOUSING
+      39      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       1       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R58003.00)
+       1       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R58003.00)
+       2       3 DORMITORY, FRATERNITY OR SORORITY
+     137       5 JAIL
+       2       4 HOSPITAL
+     110       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    8398
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Min:              1        Max:             19        Mean:               11.41
+ 
+Lead In: R58001.00[Default]
+Default Next Question: R58004.00
+--------------------------------------------------------------------------------
+R64786.00    [FAMSIZE]                                      Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1364           1
+    1369           2
+    1615           3
+    2222           4
+    1143           5
+     448           6
+     152           7
+      48           8
+      17           9
+      21          10 TO 999: 10+
+  -------
+    8399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Min:              1        Max:             15        Mean:                3.34
+ 
+Lead In: R64785.00[Default]
+Default Next Question: R64787.00
+--------------------------------------------------------------------------------
+R64791.00    [REGION]                                       Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1289           1: 1  NORTHEAST
+    1931           2: 2  NORTH CENTRAL
+    3326           3: 3  SOUTH
+    1653           4: 4  WEST
+  -------
+    8199
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      25
+TOTAL =========>    8224   VALID SKIP(-4)     175     NON-INTERVIEW(-5)    4287
+ 
+Min:              1        Max:              4        Mean:                2.65
+ 
+Lead In: R64790.00[Default]
+Default Next Question: R64792.00
+--------------------------------------------------------------------------------
+R64792.00    [MARSTAT-COL]                                  Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1778           1: 1  NEVER MARRIED
+    4678           2: 2  MARRIED, SPOUSE PRESENT
+    1943           3: 3  OTHER
+  -------
+    8399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Min:              1        Max:              3        Mean:                2.02
+ 
+Lead In: R64791.00[Default]
+Default Next Question: R64793.00
+--------------------------------------------------------------------------------
+R64798.00    [AGEATINT]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+     500          33
+    1148          34
+    1193          35
+    1170          36
+    1161          37
+    1049          38
+     889          39
+     935          40
+     354          41
+  -------
+    8399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Min:             33        Max:             41        Mean:               36.77
+ 
+Lead In: R64797.00[Default]
+Default Next Question: R64798.01
+--------------------------------------------------------------------------------
+R65303.00    [HH1-1]                                        Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7293      11 OWN DWELLING UNIT
+     453      19 RESPONDENT IN PARENT HOUSEHOLD
+       1      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       2      13 OFF-BASE MILITARY FAMILY HOUSING
+      12      12 ON-BASE MILITARY FAMILY HOUSING
+      52      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       0       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R65304.00)
+       2       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R65304.00)
+       0       3 DORMITORY, FRATERNITY OR SORORITY
+     120       5 JAIL
+       2       4 HOSPITAL
+      95       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    8032
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8032   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4654
+ 
+Min:              2        Max:             19        Mean:               11.33
+ 
+Lead In: R65302.00[Default]
+Default Next Question: R65305.00
+--------------------------------------------------------------------------------
+R70064.00    [FAMSIZE]                                      Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1396           1
+    1372           2
+    1505           3
+    2136           4
+    1025           5
+     389           6
+     120           7
+      41           8
+      25           9
+      23          10 TO 999: 10+
+  -------
+    8032
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8032   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4654
+ 
+Min:              1        Max:             18        Mean:                3.27
+ 
+Lead In: R70063.00[Default]
+Default Next Question: R70065.00
+--------------------------------------------------------------------------------
+R70068.00    [REGION]                                       Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1244           1: 1  NORTHEAST
+    1856           2: 2  NORTH CENTRAL
+    3293           3: 3  SOUTH
+    1579           4: 4  WEST
+  -------
+    7972
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7974   VALID SKIP(-4)      58     NON-INTERVIEW(-5)    4654
+ 
+Min:              1        Max:              4        Mean:                2.65
+ 
+Lead In: R70066.00[Default]
+Default Next Question: R70069.00
+--------------------------------------------------------------------------------
+R70069.00    [MARSTAT-COL]                                  Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1578           1: 1  NEVER MARRIED
+    4479           2: 2  MARRIED, SPOUSE PRESENT
+    1973           3: 3  OTHER
+  -------
+    8030
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8032   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4654
+ 
+Min:              1        Max:              3        Mean:                2.05
+ 
+Lead In: R70068.00[Default]
+Default Next Question: R70070.00
+--------------------------------------------------------------------------------
+R70075.00    [AGEATINT]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+     335          35
+    1051          36
+    1173          37
+    1100          38
+    1101          39
+    1030          40
+     854          41
+     897          42
+     491          43
+       0          44
+  -------
+    8032
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8032   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4654
+ 
+Min:             35        Max:             43        Mean:               38.93
+ 
+Lead In: R70074.00[Default]
+Default Next Question: R70075.01
+--------------------------------------------------------------------------------
+R70907.00    [HH1-1]                                        Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7057      11 OWN DWELLING UNIT
+     382      19 RESPONDENT IN PARENT HOUSEHOLD
+       1      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       2      13 OFF-BASE MILITARY FAMILY HOUSING
+      15      12 ON-BASE MILITARY FAMILY HOUSING
+      57      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       1       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R70908.00)
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R70908.00)
+       2       3 DORMITORY, FRATERNITY OR SORORITY
+     110       5 JAIL
+       6       4 HOSPITAL
+      91       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7724
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7724   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4962
+ 
+Min:              1        Max:             19        Mean:               11.28
+ 
+Lead In: R70906.00[Default]
+Default Next Question: R70909.00
+--------------------------------------------------------------------------------
+R77036.00    [FAMSIZE]                                      Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1337           1
+    1416           2
+    1512           3
+    1981           4
+     958           5
+     343           6
+     102           7
+      38           8
+      16           9
+      21          10 TO 999: 10+
+  -------
+    7724
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7724   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4962
+ 
+Min:              1        Max:             15        Mean:                3.22
+ 
+Lead In: R77035.00[Default]
+Default Next Question: R77037.00
+--------------------------------------------------------------------------------
+R77041.00    [REGION]                                       Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1190           1: 1  NORTHEAST
+    1814           2: 2  NORTH CENTRAL
+    3189           3: 3  SOUTH
+    1473           4: 4  WEST
+  -------
+    7666
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7666   VALID SKIP(-4)      58     NON-INTERVIEW(-5)    4962
+ 
+Min:              1        Max:              4        Mean:                2.65
+ 
+Lead In: R77039.00[Default]
+Default Next Question: R77042.00
+--------------------------------------------------------------------------------
+R77042.00    [MARSTAT-COL]                                  Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1439           1: 1  NEVER MARRIED
+    4350           2: 2  MARRIED, SPOUSE PRESENT
+    1930           3: 3  OTHER
+  -------
+    7719
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    7724   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4962
+ 
+Min:              1        Max:              3        Mean:                2.06
+ 
+Lead In: R77041.00[Default]
+Default Next Question: R77043.00
+--------------------------------------------------------------------------------
+R77048.00    [AGEATINT]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+     384          37
+    1051          38
+    1107          39
+    1066          40
+    1087          41
+     970          42
+     822          43
+     850          44
+     387          45
+       0          46
+  -------
+    7724
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7724   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4962
+ 
+Min:             37        Max:             45        Mean:               40.84
+ 
+Lead In: R77047.00[Default]
+Default Next Question: R77048.01
+--------------------------------------------------------------------------------
+R78006.00    [HH1-1]                                        Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7028      11 OWN DWELLING UNIT
+     394      19 RESPONDENT IN PARENT HOUSEHOLD
+       0      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       2      13 OFF-BASE MILITARY FAMILY HOUSING
+       6      12 ON-BASE MILITARY FAMILY HOUSING
+      75      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       1       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To R78007.00)
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To R78007.00)
+       0       3 DORMITORY, FRATERNITY OR SORORITY
+      37       5 JAIL
+       3       4 HOSPITAL
+     113       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7659
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+TOTAL =========>    7661   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5025
+ 
+Min:              1        Max:             19        Mean:               11.36
+ 
+Lead In: R78005.02[Default]
+Default Next Question: R78008.00
+--------------------------------------------------------------------------------
+R84960.00    [FAMSIZE]                                      Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1417           1
+    1573           2
+    1563           3
+    1813           4
+     840           5
+     310           6
+      82           7
+      31           8
+      16           9
+      16          10 TO 999: 10+
+  -------
+    7661
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7661   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5025
+ 
+Min:              1        Max:             15        Mean:                3.09
+ 
+Lead In: R84959.00[Default]
+Default Next Question: R84961.00
+--------------------------------------------------------------------------------
+R84965.00    [REGION]                                       Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1169           1: 1  NORTHEAST
+    1803           2: 2  NORTH CENTRAL
+    3155           3: 3  SOUTH
+    1474           4: 4  WEST
+  -------
+    7601
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7603   VALID SKIP(-4)      58     NON-INTERVIEW(-5)    5025
+ 
+Min:              1        Max:              4        Mean:                2.65
+ 
+Lead In: R84963.00[Default]
+Default Next Question: R84966.00
+--------------------------------------------------------------------------------
+R84966.00    [MARSTAT-COL]                                  Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1352           1: 1  NEVER MARRIED
+    4289           2: 2  MARRIED, SPOUSE PRESENT
+    2018           3: 3  OTHER
+  -------
+    7659
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7661   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5025
+ 
+Min:              1        Max:              3        Mean:                2.09
+ 
+Lead In: R84965.00[Default]
+Default Next Question: R84967.00
+--------------------------------------------------------------------------------
+R84972.00    [AGEATINT]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+       0          37
+       0          38
+     455          39
+    1043          40
+    1110          41
+    1037          42
+    1091          43
+     969          44
+     814          45
+     837          46
+     305          47
+       0          48
+       0          49
+  -------
+    7661
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7661   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5025
+ 
+Min:             39        Max:             47        Mean:               42.75
+ 
+Lead In: R84971.00[Default]
+Default Next Question: R84972.01
+--------------------------------------------------------------------------------
+T00010.00    [HH1-1]                                        Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7089      11 OWN DWELLING UNIT
+     321      19 RESPONDENT IN PARENT HOUSEHOLD
+       2      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       2      13 OFF-BASE MILITARY FAMILY HOUSING
+       2      12 ON-BASE MILITARY FAMILY HOUSING
+      56      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       1       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP   (Go To T00011.00)
+       2       2 BACHELOR ENLISTED OR OFFICER QUARTERS   (Go To T00011.00)
+       2       3 DORMITORY, FRATERNITY OR SORORITY
+      73       5 JAIL
+       4       4 HOSPITAL
+      91       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7645
+ 
+Refusal(-1)            2
+Don't Know(-2)         6
+TOTAL =========>    7653   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5033
+ 
+Min:              1        Max:             19        Mean:               11.25
+ 
+Lead In: T00009.02[Default]
+Default Next Question: T00012.00
+--------------------------------------------------------------------------------
+T09876.00    [FAMSIZE]                                      Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1544           1
+    1684           2
+    1619           3
+    1679           4
+     719           5
+     283           6
+      74           7
+      26           8
+      10           9
+      15          10 TO 999: 10+
+  -------
+    7653
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7653   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5033
+ 
+Min:              1        Max:             13        Mean:                2.97
+ 
+Lead In: T09875.00[Default]
+Default Next Question: T09878.00
+--------------------------------------------------------------------------------
+T09883.00    [REGION]                                       Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1172           1: 1  NORTHEAST
+    1775           2: 2  NORTH CENTRAL
+    3152           3: 3  SOUTH
+    1477           4: 4  WEST
+  -------
+    7576
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>    7580   VALID SKIP(-4)      73     NON-INTERVIEW(-5)    5033
+ 
+Min:              1        Max:              4        Mean:                2.65
+ 
+Lead In: T09882.00[Default]
+Default Next Question: T09884.00
+--------------------------------------------------------------------------------
+T09884.00    [MARSTAT-COL]                                  Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1351           1: 1  NEVER MARRIED
+    4195           2: 2  MARRIED, SPOUSE PRESENT
+    2106           3: 3  OTHER
+  -------
+    7652
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    7653   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5033
+ 
+Min:              1        Max:              3        Mean:                 2.1
+ 
+Lead In: T09883.00[Default]
+Default Next Question: T09885.00
+--------------------------------------------------------------------------------
+T09890.00    [AGEATINT]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+       0          40
+     526          41
+    1032          42
+    1125          43
+    1028          44
+    1089          45
+     955          46
+     824          47
+     821          48
+     252          49
+       1          50
+       0          51
+       0          52
+  -------
+    7653
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7653   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5033
+ 
+Min:             41        Max:             50        Mean:               44.69
+ 
+Lead In: T09889.00[Default]
+Default Next Question: T09890.01
+--------------------------------------------------------------------------------
+T12008.00    [HH1-1]                                        Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7241      11 OWN DWELLING UNIT
+     297      19 RESPONDENT IN PARENT HOUSEHOLD
+       1      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       1      13 OFF-BASE MILITARY FAMILY HOUSING
+       1      12 ON-BASE MILITARY FAMILY HOUSING
+      71      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       0       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS
+       2       3 DORMITORY, FRATERNITY OR SORORITY
+      65       5 JAIL
+       6       4 HOSPITAL
+      69       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7754
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    7757   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4929
+ 
+Min:              3        Max:             19        Mean:               11.25
+ 
+Lead In: T12007.02[Default]
+Default Next Question: T12009.00
+--------------------------------------------------------------------------------
+T22099.00    [FAMSIZE]                                      Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+    1680           1
+    1928           2
+    1622           3
+    1546           4
+     633           5
+     237           6
+      69           7
+      26           8
+       7           9
+       9          10 TO 999: 10+
+  -------
+    7757
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7757   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4929
+ 
+Min:              1        Max:             12        Mean:                2.84
+ 
+Lead In: T22098.00[Default]
+Default Next Question: T22100.00
+--------------------------------------------------------------------------------
+T22103.00    [REGION]                                       Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+REVISION NOTE: 551 VALUES WERE REVISED FOR THIS VARIABLE IN OCTOBER, 2011.  SEE 
+ERRATA LISTING FOR FURTHER INFORMATION.
+ 
+    1156           1: NORTHEAST
+    1786           2: NORTH CENTRAL
+    3241           3: SOUTH
+    1485           4: WEST
+  -------
+    7668
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      31
+TOTAL =========>    7699   VALID SKIP(-4)      58     NON-INTERVIEW(-5)    4929
+ 
+Min:              1        Max:              4        Mean:                2.66
+ 
+Lead In: T22102.01[Default]
+Default Next Question: T22104.00
+--------------------------------------------------------------------------------
+T22104.00    [MARSTAT-COL]                                  Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1323           1: NEVER MARRIED
+    4159           2: MARRIED, SPOUSE PRESENT
+    2275           3: OTHER
+  -------
+    7757
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7757   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4929
+ 
+Min:              1        Max:              3        Mean:                2.12
+ 
+Lead In: T22103.00[Default]
+Default Next Question: T22105.00
+--------------------------------------------------------------------------------
+T22108.00    [AGEATINT]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+     585          43
+    1072          44
+    1101          45
+    1075          46
+    1080          47
+     965          48
+     818          49
+     838          50
+     222          51
+       1          52
+  -------
+    7757
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7757   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4929
+ 
+Min:             43        Max:             52        Mean:               46.64
+ 
+Lead In: T22107.00[Default]
+Default Next Question: T22108.01
+--------------------------------------------------------------------------------
+T22607.00    [HH1-1]                                        Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    7026      11 OWN DWELLING UNIT
+     260      19 RESPONDENT IN PARENT HOUSEHOLD
+       1      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       0      13 OFF-BASE MILITARY FAMILY HOUSING
+       3      12 ON-BASE MILITARY FAMILY HOUSING
+      82      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       0       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS
+       0       3 DORMITORY, FRATERNITY OR SORORITY
+      47       5 JAIL
+       4       4 HOSPITAL
+      80       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7503
+ 
+Refusal(-1)            1
+Don't Know(-2)        61
+TOTAL =========>    7565   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5121
+ 
+Min:              4        Max:             19        Mean:               11.24
+ 
+Lead In: T22606.02[Default]
+Default Next Question: T22608.00
+--------------------------------------------------------------------------------
+T31077.00    [FAMSIZE]                                      Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+    1723           1
+    2017           2
+    1562           3
+    1365           4
+     580           5
+     206           6
+      69           7
+      22           8
+      13           9
+       8          10 TO 999: 10+
+  -------
+    7565
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7565   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5121
+ 
+Min:              1        Max:             12        Mean:                2.76
+ 
+Lead In: T31076.00[Default]
+Default Next Question: T31078.00
+--------------------------------------------------------------------------------
+T31082.00    [REGION]                                       Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1132           1: NORTHEAST
+    1738           2: NORTH CENTRAL
+    3159           3: SOUTH
+    1473           4: WEST
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>    7508   VALID SKIP(-4)      57     NON-INTERVIEW(-5)    5121
+ 
+Min:              1        Max:              4        Mean:                2.66
+ 
+Lead In: T31081.01[Default]
+Default Next Question: T31083.00
+--------------------------------------------------------------------------------
+T31083.00    [MARSTAT-COL]                                  Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1264           1: NEVER MARRIED
+    4037           2: MARRIED, SPOUSE PRESENT
+    2261           3: OTHER
+  -------
+    7562
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    7565   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5121
+ 
+Min:              1        Max:              3        Mean:                2.13
+ 
+Lead In: T31082.00[Default]
+Default Next Question: T31084.00
+--------------------------------------------------------------------------------
+T31087.00    [AGEATINT]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+     652          45
+    1058          46
+    1080          47
+    1034          48
+    1071          49
+     907          50
+     794          51
+     816          52
+     153          53
+  -------
+    7565
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7565   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5121
+ 
+Min:             45        Max:             53        Mean:               48.55
+ 
+Lead In: T31086.00[Default]
+Default Next Question: T31087.01
+--------------------------------------------------------------------------------
+T31957.00    [HH1-1]                                        Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+INTERVIEWER: [r's first name] [r's middle name] [r's last name] IS LIVING IN: 
+(SELECT ONE)
+ 
+    6908      11 OWN DWELLING UNIT
+     230      19 RESPONDENT IN PARENT HOUSEHOLD
+       0      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE
+       1      13 OFF-BASE MILITARY FAMILY HOUSING
+       2      12 ON-BASE MILITARY FAMILY HOUSING
+      64      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)
+       0       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS
+       0       3 DORMITORY, FRATERNITY OR SORORITY
+      32       5 JAIL
+       4       4 HOSPITAL
+      58       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+  -------
+    7299
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:              4        Max:             19        Mean:               11.23
+ 
+Lead In: T31956.02[Default]
+Default Next Question: T31958.00
+--------------------------------------------------------------------------------
+T41122.00    [FAMSIZE]                                      Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+       0           0
+    1756           1
+    2219           2
+    1540           3
+    1093           4
+     462           5
+     143           6
+      51           7
+      19           8
+       7           9
+      10          10 TO 999: 10+
+  -------
+    7300
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:              1        Max:             16        Mean:                2.61
+ 
+Lead In: T41121.00[Default]
+Default Next Question: T41123.00
+--------------------------------------------------------------------------------
+T41127.00    [REGION]                                       Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1081           1: NORTHEAST
+    1669           2: NORTH CENTRAL
+    3069           3: SOUTH
+    1421           4: WEST
+  -------
+    7240
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7240   VALID SKIP(-4)      60     NON-INTERVIEW(-5)    5386
+ 
+Min:              1        Max:              4        Mean:                2.67
+ 
+Lead In: T41126.01[Default]
+Default Next Question: T41128.00
+--------------------------------------------------------------------------------
+T41128.00    [MARSTAT-COL]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1190           1: NEVER MARRIED
+    3823           2: MARRIED, SPOUSE PRESENT
+    2285           3: OTHER
+  -------
+    7298
+ 
+Refusal(-1)            1
+Don't Know(-2)         1
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:              1        Max:              3        Mean:                2.15
+ 
+Lead In: T41127.00[Default]
+Default Next Question: T41129.00
+--------------------------------------------------------------------------------
+T41132.00    [AGEATINT]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+       0          40
+       0          41
+       0          42
+       0          43
+       0          44
+       0          45
+       0          46
+      57          47
+     845          48
+    1016          49
+    1028          50
+    1048          51
+     975          52
+     825          53
+     780          54
+     668          55
+      58          56
+  -------
+    7300
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:             47        Max:             56        Mean:               51.29
+ 
+Lead In: T41131.00[Default]
+Default Next Question: T41132.01
+--------------------------------------------------------------------------------
+T41815.00    [HH1-1]                                        Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+What type of residence or dwelling unit are you living in?
+ 
+(IF NECESSARY, READ) For example, are you living in your own residence or 
+dwelling unit, your parents' household, on- or off-base mililtary family 
+housing, a dorm or religious institute or something else?
+ 
+    6809      11 OWN DWELLING UNIT
+     122      19 RESPONDENT IN PARENT HOUSEHOLD
+       2      15 CONVENT, MONASTERY, OTHER RELIGIOUS INSTITUTE   (Go To 
+                      T41828.00)
+       0      13 OFF-BASE MILITARY FAMILY HOUSING
+       0      12 ON-BASE MILITARY FAMILY HOUSING
+       1      16 OTHER INDIVIDUAL QUARTERS (SPECIFY)   (Go To T41828.00)
+       0       1 OPEN BAY OR TROOP BARRACKS, ABOARD SHIP
+       0       2 BACHELOR ENLISTED OR OFFICER QUARTERS
+       1       3 DORMITORY, FRATERNITY OR SORORITY
+      26       5 JAIL
+      19       4 HOSPITAL
+      15       6 OTHER TEMPORARY INDIVIDUAL QUARTERS (SPECIFY)
+      28      17 LIVES WITH OTHER RELATIVES
+      13      18 LIVES AT FRIEND'S RESIDENCE
+      13      21 HOMELESS
+       6      25 MOTEL/HOTEL
+       4      26 GROUP HOME OR BOARDING HOUSE
+       8      32 NURSING HOME OR RETIREMENT FACILITY
+  -------
+    7067
+ 
+Refusal(-1)            2
+Don't Know(-2)         1
+TOTAL =========>    7070   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5616
+ 
+Min:              3        Max:             32        Mean:               11.19
+ 
+Lead In: T41811.02[Default]
+Default Next Question: T41816.00
+--------------------------------------------------------------------------------
+T50225.00    [FAMSIZE]                                      Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+    1894           1
+    2385           2
+    1344           3
+     920           4
+     343           5
+     119           6
+      34           7
+      16           8
+       7           9
+       8          10 TO 999: 10+
+  -------
+    7070
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7070   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5616
+ 
+Min:              1        Max:             15        Mean:                2.45
+ 
+Lead In: T50223.00[Default]
+Default Next Question: T50226.00
+--------------------------------------------------------------------------------
+T50231.00    [REGION]                                       Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1029           1: NORTHEAST
+    1611           2: NORTH CENTRAL
+    2983           3: SOUTH
+    1380           4: WEST
+  -------
+    7003
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    7008   VALID SKIP(-4)      62     NON-INTERVIEW(-5)    5616
+ 
+Min:              1        Max:              4        Mean:                2.67
+ 
+Lead In: T50230.00[Default]
+Default Next Question: T50232.00
+--------------------------------------------------------------------------------
+T50232.00    [MARSTAT-COL]                                  Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1124           1: NEVER MARRIED
+    3715           2: MARRIED, SPOUSE PRESENT
+    2231           3: OTHER
+  -------
+    7070
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7070   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5616
+ 
+Min:              1        Max:              3        Mean:                2.16
+ 
+Lead In: T50231.00[Default]
+Default Next Question: T50233.00
+--------------------------------------------------------------------------------
+T50236.00    [AGEATINT]                                     Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             AGE AT INTERVIEW
+ 
+COMMENT: Age at interview date
+ 
+       1          49
+     704          50
+    1004          51
+    1006          52
+     975          53
+     976          54
+     837          55
+     756          56
+     746          57
+      65          58
+  -------
+    7070
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7070   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5616
+ 
+Min:             49        Max:             58        Mean:               53.44
+ 
+Lead In: T50235.00[Default]
+Default Next Question: T50237.00
+--------------------------------------------------------------------------------
+T51521.00    [HH1-1]                                        Survey Year: 2016
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+In what type of place are you currently living?  (IF NECESSARY, READ:) For 
+example, are you living in a residence, such as a house or apartment, alone or 
+with friends or immediate family, or with other relatives, or something else?
+ 
+(INTERVIEWER: DO NOT READ CATEGORIES. “OWN RESIDENCE” CAN BE RENTED OR OWNED BY 
+R OR ANOTHER PERSON, WHERE R IS LIVING WITH IMMEDIATE FAMILY (SPOUSE/PARTNER, 
+CHILDREN, ETC) OR WITH FRIENDS OR ROOMATES.)
+ 
+    6672      11 OWN RESIDENCE SUCH AS HOUSE, APARTMENT, CONDO, OR MOBILE HOME, 
+                      ALONE OR WITH OTHERS
+      54      19 RESPONDENT IN PARENT HOUSEHOLD
+      58      20 RESPONDENT IN OTHER RELATIVE'S HOUSEHOLD
+       6      21 RETIREMENT COMMUNITY/FACILITY
+      14      22 GROUP HOME, RESIDENTIAL NURSING OR OTHER ASSISTED LIVING 
+                      FACILITY   (Go To T51608.00)
+      10      23 HALFWAY HOUSE, RESIDENTIAL MENTAL HEALTH TREATMENT OR 
+                      DRUG/ALCOHOL REHAB   (Go To T51608.00)
+      26      24 HOTEL, MOTEL, ROOMING, OR BOARDING HOUSE
+       8      25 SHELTER (FOR HOMELESS OR ABUSED) OR ON STREET   (Go To 
+                      T51608.00)
+      20       5 JAIL/PRISON   (Go To T51608.00)
+       0       4 HOSPITAL
+      43      26 OTHER (SPECIFY)
+  -------
+    6911
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    6912   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5774
+ 
+Min:              5        Max:             26        Mean:               11.33
+ 
+Lead In: T51515.00[Default] T51517.00[Default]  T51515.00[1:1]
+Default Next Question: T51522.00
+--------------------------------------------------------------------------------
+T57707.00    [FAMSIZE]                                      Survey Year: 2016
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+    1887           1
+    2519           2
+    1275           3
+     751           4
+     305           5
+     104           6
+      41           7
+      20           8
+       4           9
+       6          10 TO 999: 10+
+  -------
+    6912
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6912   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5774
+ 
+Min:              1        Max:             13        Mean:                2.38
+ 
+Lead In: T57706.00[Default]
+Default Next Question: T57708.00
+--------------------------------------------------------------------------------
+T57710.00    [REGION]                                       Survey Year: 2016
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+    1006           1: NORTHEAST
+    1537           2: NORTH CENTRAL
+    2963           3: SOUTH
+    1344           4: WEST
+  -------
+    6850
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6850   VALID SKIP(-4)      62     NON-INTERVIEW(-5)    5774
+ 
+Min:              1        Max:              4        Mean:                2.68
+ 
+Lead In: T57709.01[Default]
+Default Next Question: T57711.00
+--------------------------------------------------------------------------------
+T57711.00    [MARSTAT-COL]                                  Survey Year: 2016
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1050           1: NEVER MARRIED
+    3610           2: MARRIED, SPOUSE PRESENT
+    2252           3: OTHER
+  -------
+    6912
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6912   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5774
+ 
+Min:              1        Max:              3        Mean:                2.17
+ 
+Lead In: T57710.00[Default]
+Default Next Question: T57712.00
+--------------------------------------------------------------------------------
+T57715.00    [AGEATINT]                                     Survey Year: 2016
+  PRIMARY VARIABLE
+
+ 
+             AGE AT INTERVIEW
+ 
+COMMENT: Age at interview date
+ 
+      13          51
+     720          52
+     957          53
+     991          54
+     961          55
+     964          56
+     773          57
+     762          58
+     690          59
+      81          60
+  -------
+    6912
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6912   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5774
+ 
+Min:             51        Max:             60        Mean:               55.41
+ 
+Lead In: T57714.00[Default]
+Default Next Question: T57716.00
+--------------------------------------------------------------------------------
+T77217.00    [HHI1-1]                                       Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+Do you currently live in a single family house, in an apartment or condominium, 
+or in some other type of housing?
+ 
+    5499       1 SINGLE-FAMILY HOUSE (INCL. MOBILE HOME)   (Go To T77219.00)
+    1213       2 APARTMENT/CONDO/TOWNHOUSE   (Go To T77219.00)
+     165       3 SOME OTHER TYPE OF HOUSING
+  -------
+    6877
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    6878   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5808
+ 
+Min:              1        Max:              3        Mean:                1.22
+ 
+Lead In: T77213.00[Default]
+Default Next Question: T77218.00
+--------------------------------------------------------------------------------
+T77218.00    [HHI1-1X]                                      Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF RESIDENCE R IS LIVING IN
+ 
+Would that housing be in a …
+ 
+       1       4 Dormitory (inc. fraternity/sorority) or Military Barracks
+      28       5 Hotel, Motel, Rooming or Boarding House
+      11       6 Shelter (for homeless or abused) or on street
+      14       7 Jail/Prison/Detention/Work Release   (Go To T77295.00)
+       5       9 Hospital
+      16      10 Group Home or Treatment Center
+      52      11 Other Type of Housing
+      38       8 (IF OFFERED) Mobile Home
+  -------
+     165
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>     166   VALID SKIP(-4)    6712     NON-INTERVIEW(-5)    5808
+ 
+Min:              4        Max:             11        Mean:                8.42
+ 
+Lead In: T77217.00[Default]
+Default Next Question: T77219.00
+--------------------------------------------------------------------------------
+T82186.00    [FAMSIZE]                                      Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             FAMILY SIZE
+ 
+COMMENT: Family Size
+ 
+    1993           1
+    2687           2
+    1177           3
+     623           4
+     251           5
+      87           6
+      30           7
+      17           8
+       8           9
+       5          10 TO 999: 10+
+  -------
+    6878
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6878   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5808
+ 
+Min:              1        Max:             11        Mean:                2.27
+ 
+Lead In: T82185.00[Default]
+Default Next Question: T82187.00
+--------------------------------------------------------------------------------
+T82191.00    [REGION]                                       Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             REGION OF CURRENT RESIDENCE
+ 
+COMMENT: REGION OF RESIDENCE
+ 
+NOTE: FOR VARIABLE CREATION SEE ATTACHMENT 104: GEOGRAPHIC REGIONS
+ 
+     994           1: NORTHEAST
+    1532           2: NORTH CENTRAL
+    2935           3: SOUTH
+    1352           4: WEST
+  -------
+    6813
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    6814   VALID SKIP(-4)      64     NON-INTERVIEW(-5)    5808
+ 
+Min:              1        Max:              4        Mean:                2.68
+ 
+Lead In: T82190.00[Default]
+Default Next Question: T82192.00
+--------------------------------------------------------------------------------
+T82192.00    [MARSTAT-COL]                                  Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS (COLLAPSED)
+ 
+COMMENT: Marital Status (Collapsed)
+ 
+    1016           1: NEVER MARRIED
+    3571           2: MARRIED, SPOUSE PRESENT
+    2291           3: OTHER
+  -------
+    6878
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6878   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5808
+ 
+Min:              1        Max:              3        Mean:                2.19
+ 
+Lead In: T82191.00[Default]
+Default Next Question: T82193.00
+--------------------------------------------------------------------------------
+T82194.00    [AGEATINT]                                     Survey Year: 2018
+  PRIMARY VARIABLE
+
+ 
+             AGE AT INTERVIEW
+ 
+COMMENT: Age at interview date
+ 
+      43          53
+     803          54
+     969          55
+     982          56
+     979          57
+     929          58
+     756          59
+     734          60
+     643          61
+      40          62
+  -------
+    6878
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6878   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5808
+ 
+Min:             53        Max:             62        Mean:               57.28
+ 
+Lead In: T82193.00[Default]
+Default Next Question: T82195.00

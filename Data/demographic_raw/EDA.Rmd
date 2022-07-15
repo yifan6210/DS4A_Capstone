@@ -1,0 +1,297 @@
+---
+title: "demographics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readr)
+```
+
+```{r}
+Id <- new_data[1]
+colnames(Id) <-'ID'
+```
+
+```{r}
+year_value_family <- c("1979","1980","1981","1982","1983", "1984","1985",
+  "1986",
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1996",
+  "1998",
+  "2000",
+  "2002",
+  "2004",
+  "2006",
+  "2008",
+  "2010",
+  "2012",
+  "2014",
+  "2016",
+  "2018")
+```
+
+
+```{r}
+family_size <- new_data %>%
+  select(R0217502,
+  R0405210,
+  R0647103,
+  R0896710,
+  R1144410,
+  R1519610,
+  R1890210,
+  R2257410,
+  R2444610,
+  R2870110,
+  R3073910,
+  R3400600,
+  R3656000,
+  R4006500,
+  R4417600,
+  R5080600,
+  R5165900,
+  R6478600,
+  R7006400,
+  R7703600,
+  R8496000,
+  T0987600,
+  T2209900,
+  T3107700,
+  T4112200,
+  T5022500,
+  T5770700,
+  T8218600,
+  )
+
+colnames(family_size) <- year_value
+Family_Size <- data_frame(Id,family_size) 
+Family_Size_Long <- Family_Size %>% 
+  gather(key = 'year', value = "score", 2:29)
+```
+
+```{r}
+resident_type <- new_data %>%
+  select(R0188000,
+R0402800,
+R0612100,
+R0828400,
+R1075700,
+R1451400,
+R1798600,
+R2160200,
+R2369100,
+R2500000,
+R2900000,
+R3100000,
+R3500000,
+R3700000,
+R4100300,
+R4500300,
+R5200300,
+R5800200,
+R6530300,
+R7090700,
+R7800600,
+T0001000,
+T1200800,
+T2260700,
+T3195700,
+T4181500,
+T5152100,
+T7721700,
+T7721800
+  )
+year_value_residence <- c("1979","1980","1981","1982","1983", "1984","1985",
+  "1986",
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1996",
+  "1998",
+  "2000",
+  "2002",
+  "2004",
+  "2006",
+  "2008",
+  "2010",
+  "2012",
+  "2014",
+  "2016",
+  "2018",
+  "2018_2")
+
+colnames(resident_type)<- year_value_residence
+Resident_Type <- data_frame(Id,resident_type) 
+Resident_Type_Long <- Resident_Type %>% 
+  gather(key = 'year', value = "score", 2:30)
+```
+
+```{r}
+region <- new_data %>%
+  select(R0216400,
+R0405700,
+R0602810,
+R0897910,
+R1144800,
+R1520000,
+R1890700,
+R2257800,
+R2445200,
+R2870800,
+R3074500,
+R3401200,
+R3656600,
+R4007100,
+R4418200,
+R5081200,
+R5166500,
+R6479100,
+R7006800,
+R7704100,
+R8496500,
+T0988300,
+T2210300,
+T3108200,
+T4112700,
+T5023100,
+T5771000,
+T8219100
+  )
+year_value_region <- c("1979","1980","1981","1982","1983", "1984","1985","1986","1987","1988","1989","1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1996",
+  "1998",
+  "2000",
+  "2002",
+  "2004",
+  "2006",
+  "2008",
+  "2010",
+  "2012",
+  "2014",
+  "2016",
+  "2018")
+
+colnames(region)<- year_value_region
+Region <- data_frame(Id,region) 
+Region_Long <- Region %>% 
+  gather(key = 'year', value = "score", 2:29)
+```
+
+```{r}
+age_1979 <- new_data[2] 
+for (i in 2:40){
+  age_1979[i] = age_1979[1] + i-1
+}
+colnames(age_1979)<- c(1979:2018)
+age <- data_frame(Id, age_1979)
+Age <- age %>% 
+  gather(key = 'year', value = "score", 2:41)
+```
+
+```{r}
+married <- new_data %>%
+  select(R0217500,
+R0405600,
+R0618600,
+R0898400,
+R1144900,
+R1520100,
+R1890800,
+R2257900,
+R2445300,
+R2870900,
+R3074600,
+R3401300,
+R3656700,
+R4007200,
+R4418300,
+R5081300,
+R5166600,
+R6479200,
+R7006900,
+R7704200,
+R8496600,
+T0988400,
+T2210400,
+T3108300,
+T4112800,
+T5023200,
+T5771100,
+T8219200)
+
+year_value_married <- c("1979","1980","1981","1982","1983", "1984","1985",
+  "1986",
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1996",
+  "1998",
+  "2000",
+  "2002",
+  "2004",
+  "2006",
+  "2008",
+  "2010",
+  "2012",
+  "2014",
+  "2016",
+  "2018")
+
+colnames(married)<- year_value_married
+Married <- data_frame(Id,married) 
+Married_Long <- Married %>% 
+  gather(key = 'year', value = "score", 2:29)
+```
+
+```{r}
+birth_country <- new_data %>% 
+  select(R0000700)
+for (i in 2:40){
+  birth_country[i] = birth_country[1]
+}
+colnames(birth_country)<- c(1979:2018)
+Birth_Country <- data_frame(Id,birth_country) 
+Birth_Country_Long <- Birth_Country %>% 
+  gather(key = 'year', value = "score", 2:41)
+```
+
+```{r}
+race <- new_data %>% 
+  select(R0010200)
+for (i in 2:40){
+  race[i] = race[1]
+}
+colnames(race)<- c(1979:2018)
+Race <- data_frame(Id,race) 
+Race_Long <- Race %>% 
+  gather(key = 'year', value = "score", 2:41)
+```
+
+```{r}
+write_csv()
+```
+
+
